@@ -1,0 +1,148 @@
+/* .row{
+    display: flex;
+    flex-direction: column;
+} */
+.singleProduct{
+    margin-top: 80px;
+}
+.singleProduct .col-6 img{
+    padding: 0;
+}
+.singleProduct .col-6{
+    padding: 20px;
+}
+
+#productTitle{
+    font-family: "Amazon Ember",Arial,sans-serif;
+    color: #0F1111;
+    font-weight: 400;
+    font-size: 24px !important;
+    word-break: break-word;
+    text-align: justify;
+    margin-right: 20px;
+}
+
+#productDetails{
+    font-family: "Amazon Ember",Arial,sans-serif;
+    word-break: break-word;
+    text-align: justify;
+    margin-right: 20px;
+
+}
+
+#categoryTitle{
+    text-transform: uppercase;
+}
+
+#categoryTitleFull{
+    text-decoration: none;
+    color: #007185;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#categoryTitleFull:hover{
+    border-bottom: 1px solid #007185;
+
+}
+
+#availability{
+    color: orangered;
+}
+
+#singleTaka{
+    font-family: "Roboto",Arial,sans-serif;
+    color: #212121;
+    letter-spacing: 0;
+    line-height: 1.4;
+    font-weight: 500;
+    font-size: 28px;
+    vertical-align: sub;
+
+}
+
+
+
+.singleProduct h4{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.singleProduct select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.singleProduct input{
+    width: 50px;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 20px;
+    /* margin-right: 10px; */
+    border: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+.singleProduct .fa{
+    color: #ff523b;
+    margin-left: 10px;
+}
+
+.small-image-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-image-col{
+    flex-basis: 30%;
+    cursor: pointer;
+    border: 1px solid gray;
+}
+
+.imgContent{
+    margin-bottom: 100px;
+}
+
+.smallImage{
+    width: 80%;
+    height: 180px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  
+}
+
+.spinner{
+    border-radius: 50%;
+    border: none;
+}
+
+.addToCartBtn{
+    background-color: orangered;
+    margin-right: 20px;
+}
+
+.imgContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-img{
+    margin-top: 40px;
+    width:480px;
+   height : 480px;
+    /* max-height : 550px; */
+}
